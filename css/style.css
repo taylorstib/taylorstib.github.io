@@ -1,0 +1,94 @@
+/* Stylesheet for my Plane Rental website*/
+
+body{
+	background-color: #E0E0E0;
+}
+
+ul.nav {
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+ul.nav li {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+
+ul.nav li a {
+	padding: 10px;
+	text-align: center;
+	margin: 6px 4px 0 0;
+	background-color: cadetblue;
+	color: white;
+	text-decoration: none;
+	border-radius: 25%;
+	font-size: 28px;
+}
+
+ul.nav li a:visited{
+	color: white;
+}
+ul.nav li a:hover {
+	color: black;
+	border: 2px dashed black;
+}
+
+p.site_description{
+	float: left;
+	font-size: 28px;
+}
+
+#main_img{
+	float:right;
+}
+
+h1.grid_12,
+h2 {
+	text-align: center;
+}
+
+form{
+	padding-top: 30px;
+}
+#website_notes{
+	border: solid red 3px;
+	background-color: black;
+}
+#website_notes p {
+	color:red;
+	font-size: 35px;
+	padding: 20px;
+}
+
+.side_notes{
+	width: 300px;
+	margin-right:0px;
+	float: right;
+	margin-top: 30px;	
+}
+h1.grid_12{
+	border: dashed black 2px;
+	padding: 17px 0px;
+	font-size: 55px;
+	font-family: sans-serif, helvetica;
+}
+h2{
+	font-style: italic;
+	color: #780000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
