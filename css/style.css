@@ -1,7 +1,7 @@
 /* Stylesheet for my Plane Rental website*/
 
 body{
-	background-color: #E0E0E0;
+	background-color: #E4;
 }
 
 ul.nav {
@@ -20,7 +20,7 @@ ul.nav li a {
 	padding: 10px;
 	text-align: center;
 	margin: 6px 4px 0 0;
-	background-color: cadetblue;
+	background-color: darkgrey;
 	color: white;
 	text-decoration: none;
 	border-radius: 25%;
@@ -32,17 +32,30 @@ ul.nav li a:visited{
 }
 ul.nav li a:hover {
 	color: black;
-	border: 2px dashed black;
+	border: 1px dashed black;  /*If change border size, adjust padding and margin by same amount to keep from 'bouncing' on hover */
+	padding: 9px;
+	margin: 5px 4px 0 0;
+	background-color: #3399ff
 }
 
 p.site_description{
-	float: left;
+	/*float: left;*/
 	font-size: 28px;
+	font-family: calibri;
+	margin-bottom: 50px;
+	text-align: justify;
 }
 
 #main_img{
-	float:right;
+	/*float:right;*/
+	margin-top: 40px;
 }
+
+h1.grid_12{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 
 h1.grid_12,
 h2 {
@@ -52,7 +65,9 @@ h2 {
 form{
 	padding-top: 30px;
 }
-#website_notes{
+
+
+/*#website_notes{
 	border: solid red 3px;
 	background-color: black;
 }
@@ -60,7 +75,7 @@ form{
 	color:red;
 	font-size: 35px;
 	padding: 20px;
-}
+}*/
 
 .side_notes{
 	width: 300px;
@@ -69,10 +84,13 @@ form{
 	margin-top: 30px;	
 }
 h1.grid_12{
-	border: dashed black 2px;
+	border: dotted black 2px;
+	border-radius: 55%;
 	padding: 17px 0px;
-	font-size: 55px;
-	font-family: sans-serif, helvetica;
+	font-size: 60px;
+	font-family: "calibri light", sans-serif, helvetica;
+	background-color: steelblue;
+	color: white;
 }
 h2{
 	font-style: italic;
