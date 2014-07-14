@@ -1,4 +1,6 @@
-taylorstib.github.io
+Aircraft Sharing Program
 ====================
 
-Taylor Stib's Homepage
+Proposed project for Tech Bootcamp application. 
+
+Practice deploying static web page to Github Pages. 
