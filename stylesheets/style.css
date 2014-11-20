@@ -1,4 +1,33 @@
 body {
 	margin-top: 30px;
-	background-color: #334;
+	background-color: white;
+}
+
+.jumbotron{
+	line-height: 1.8;
+}
+
+.jumbotron .btn {
+	margin-right: 15px;
+}
+
+li{
+	padding-top: 5px;
+	padding-bottom: 15px;
+	margin-left: 10px;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*Makes the links initially translucent*/
+a{
+	color: rgba(7, 95, 158, 0.56);
+}
+
+/*On hover they become opaque*/
+a:hover{
+	text-decoration: none;
 }
