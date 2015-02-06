@@ -25,17 +25,19 @@ li{
 	margin-left: 10px;
 }
 
-.title{
-	font-weight: bold;
-	font-size: 18px;
-}
 
 /*Makes the links initially translucent*/
 a{
 	color: rgba(7, 95, 158, 0.56);
+	font-size: 18px;
 }
 
 /*On hover they become opaque*/
 a:hover{
 	text-decoration: none;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 22px;
 }
