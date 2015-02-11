@@ -1,8 +1,8 @@
 /*
 Font families from Google Fonts
 font-family: 'Pacifico', cursive;
-font-family: 'Open Sans', sans-serif;
-font-family: 'PT Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;  //Open+Sans:600,400
+font-family: 'PT Sans', sans-serif;    //PT+Sans:700
 */
 
 body {
@@ -15,7 +15,6 @@ h1{
 }
 h3{
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
 }
 
 /*The main bio section stands out*/
