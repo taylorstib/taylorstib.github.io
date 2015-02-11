@@ -11,10 +11,11 @@ h3{
 	font-weight: 400;
 }
 
+/*The main bio section stands out*/
 .jumbotron{
 	line-height: 1.6;
 }
-
+/*Spacing for the link buttons */
 .jumbotron .btn {
 	margin-right: 15px;
 }
@@ -36,7 +37,7 @@ a{
 a:hover{
 	text-decoration: none;
 }
-
+/*Adds underline to link titles and makes them a bit bigger font*/
 .title{
 	font-weight: bold;
 	font-size: 22px;
