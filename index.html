@@ -1,90 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+	<title>Taylor Stib - Web Developer and Entrepreneur</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="author" content="Taylor Stib">
+	<meta name="description" content="Homepage for Taylor Stib">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<!-- This one not used for now -->
+	<!-- <link href='http://fonts.googleapis.com/css?family=Ubuntu|Lato:400,300' rel='stylesheet' type='text/css'> -->
+	<link href='http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:600,400|PT+Sans:700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+	  <!-- Beginning of the containing div -->
+	  <div class="container">
+		<!-- Beginning of Jumbotron -->
+		<div class="jumbotron">
+		  <h1>Taylor R. Stib</h1>
+		  <p>I am a graduate of Yale University, December 2014, with a <b>B.A. in Economics</b> and
+		  <b>Ruby on Rails</b> web development. I like working with
+		  <b>Data Visualizations</b>, backend web development, <b>Command Line Applications</b> and open-source technologies. I am also a huge
+		  <b>Aviation Hobbyist</b> with 20 hours of flight training time under my belt and hope to complete my pilot training soon.</p>
+		  <p>
+		  <a href="http://www.linkedin.com/in/taylorstib" class="btn btn-default"><img src="img/glyphicons_social_17_linked_in.png"> LinkedIn profile</a>
+		  <a href="https://github.com/taylorstib" class="btn btn-default"><img src="img/glyphicons_social_21_github.png"> GitHub profile</a>
+		  <a href="http://indeed.com/me/taylor_stib" class="btn btn-default"><img src="img/glyphicons_114_list.png"> Indeed.com Resume</a>
+		  </p>
+		</div>
+		<!-- End of Jumbotron -->
+		<!-- Rails apps Section -->
+		<h3>Rails Apps That I Have Made Or Contributed to</h3>
+		<ul class="list-unstyled">
+		  <li>
+			<a href="http://brace-yourself.herokuapp.com/"><span class="title">Brace Yourself</span> - Rails app for smart medical device. Log in to view a sample user interface.</a>
+			<li>
+			  <p class="signin">Username: doctordre@gmail.com</p>
+			  <p class="signin">Pass: supersecret</p>
+			</li>
+		  </li>
+		  <li><a href="http://youdajudge.herokuapp.com/"><span class="title">YouDaJudge</span> - a social site that lets you score MMA fights with your friends</a>
+		</li>
+		<li><a href="http://youtu.be/5x4RDrJiSk4?t=54m9s"><span class="title">Video demonstration</span> of my group's final project. Rails app with node.js data processing and D3.js data visualization. (starts with a quick intro about us)</a>
+	  </li>
+	</ul>
+	<!-- Sinatra apps section -->
+	<h3>Sinatra Apps</h3>
+	<ul class="list-unstyled">
+	  <li><a href="http://randomestbeyonce.herokuapp.com/"><span class="title">Random Beyonce</span> - Add some favorite YouTube videos to a playlist (no Beyonce necessary)</a>
+	</li>
+	<li>
+	  <a href="http://vacationplanner.herokuapp.com/"><span class="title">Vacation Planner</span> - A Sinatra app for budgeting and planning your next vacation</a>
+	</li>
+  </ul>
+  <!-- Static section -->
+  <h3>Static, Informational Sites</h3>
+  <ul class="list-unstyled">
+	<li>
+	  <a href="http://will.childs-kle.in/cpsc183-final/"><span class="title">Patent Trolls Twitter Analysis</span> - Data visualization and analysis of "Patent Troll" related keywords posted to Twitter. Final project for CPSC 183 with</a> <b><a class="shoutout" href="http://will.childs-kle.in/">Will Childs-Klein</a></b>
+	</li>
+	<li>
+	  <a href="http://yalefie.com/"><span class="title">"#Yalefie" Campaign Website</span> - The homepage for a class social media project</a>
+	</li>
+  </ul>
+  <!-- Source code section -->
+  <h3>Source Code Examples (more can be found on my <a href="https://github.com/taylorstib">Github Profile</a>)</h3>
+  <ul class="list-unstyled">
+	<li><a href="https://github.com/pablitod123/braceyourself/tree/master/brace_rails"><span class="title">Brace Yourself</span> The Rails app for a local startup company</a>
+  </li>
+  <li><a href="https://github.com/taylorstib/stat-scraping"><span class="title">Stat scraping tool</span> to help evaluate players for fantasy football or other statistical analysis. Contains a full Rspec test suite and Rdoc documentation.</a>
+</li>
+</ul>
 
-<head>
-  <title>Taylor Stib - Web Developer and Entrepreneur</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="UTF-8">
-  <meta name="author" content="Taylor Stib">
-  <meta name="description" content="Homepage for Taylor Stib">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css"> -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-  <!-- This one not used for now -->
-  <!-- <link href='http://fonts.googleapis.com/css?family=Ubuntu|Lato:400,300' rel='stylesheet' type='text/css'> -->
-  <link href='http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:600,400|PT+Sans:700' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
-  <!-- Beginning of the containing div -->
-  <div class="container">
-
-    <!-- Beginning of Jumbotron -->
-    <div class="jumbotron">
-      <h1>Taylor R. Stib</h1>
-      <p>I am a graduate of Yale University, December 2014, with a <b>B.A. in Economics</b> and
-        <b>Ruby on Rails</b> web development. I like working with
-        <b>Data Visualizations</b>, backend web development, <b>Command Line Applications</b> and open-source technologies. I am also a huge
-        <b>Aviation Hobbyist</b> with 20 hours of flight training time under my belt and hope to complete my pilot training soon.</p>
-      <p>
-        <a href="http://www.linkedin.com/in/taylorstib" class="btn btn-default"><img src="img/glyphicons_social_17_linked_in.png"> LinkedIn profile</a>
-        <a href="https://github.com/taylorstib" class="btn btn-default"><img src="img/glyphicons_social_21_github.png"> GitHub profile</a>
-        <a href="http://indeed.com/me/taylor_stib" class="btn btn-default"><img src="img/glyphicons_114_list.png"> Indeed.com Resume</a>
-      </p>
-    </div>
-    <!-- End of Jumbotron -->
-
-      <!-- Rails apps Section -->
-      <h3>Rails Apps That I Have Made Or Contributed to</h3>
-      <ul class="list-unstyled">
-        <li>
-          <a href="http://brace-yourself.herokuapp.com/"><span class="title">Brace Yourself</span> - Rails app for smart medical device. Log in to view a sample user interface.</a>
-            <li>
-              <p class="signin">Username: doctordre@gmail.com</p>
-              <p class="signin">Pass: supersecret</p>
-            </li>
-        </li>
-        <li><a href="http://youdajudge.herokuapp.com/"><span class="title">YouDaJudge</span> - a social site that lets you score MMA fights with your friends</a>
-        </li>
-        <li><a href="http://youtu.be/5x4RDrJiSk4?t=54m9s"><span class="title">Video demonstration</span> of my group's final project. Rails app with node.js data processing and D3.js data visualization. (starts with a quick intro about us)</a>
-        </li>
-      </ul>
-
-      <!-- Sinatra apps section -->
-      <h3>Sinatra Apps</h3>
-        <ul class="list-unstyled">
-            <li><a href="http://randomestbeyonce.herokuapp.com/"><span class="title">Random Beyonce</span> - Add some favorite YouTube videos to a playlist (no Beyonce necessary)</a>
-            </li>
-            <li>
-              <a href="http://vacationplanner.herokuapp.com/"><span class="title">Vacation Planner</span> - A Sinatra app for budgeting and planning your next vacation</a>
-            </li>
-        </ul>
-
-      <!-- Static section -->
-      <h3>Static, Informational Sites</h3>
-      <ul class="list-unstyled">
-          <li>
-            <a href="http://will.childs-kle.in/cpsc183-final/"><span class="title">Patent Trolls Twitter Analysis</span> - Data visualization and analysis of "Patent Troll" related keywords posted to Twitter. Final project for CPSC 183 with</a> <b><a class="shoutout" href="http://will.childs-kle.in/">Will Childs-Klein</a></b>
-          </li>
-           <li>
-            <a href="http://yalefie.com/"><span class="title">"#Yalefie" Campaign Website</span> - The homepage for a class social media project</a>
-          </li>
-      </ul>
-
-      <!-- Source code section -->
-      <h3>Source Code Examples (more can be found on my <a href="https://github.com/taylorstib">Github Profile</a>)</h3>
-      <ul class="list-unstyled">
-        <li><a href="https://github.com/pablitod123/braceyourself/tree/master/brace_rails"><span class="title">Brace Yourself</span> The Rails app for a local startup company</a>
-        </li>
-        <li><a href="https://github.com/taylorstib/stat-scraping"><span class="title">Stat scraping tool</span> to help evaluate players for fantasy football or other statistical analysis. Contains a full Rspec test suite and Rdoc documentation.</a>
-        </li>
-      </ul>
-
-      
-  </div>
-  <!-- End of the container div -->
+</div>
+<!-- End of the container div -->
 <script src="scripts/jquery.js"></script>
 <script src="scripts/scripts.js"></script>
 </body>
-
 </html>
