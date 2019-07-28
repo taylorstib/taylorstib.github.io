@@ -1,0 +1,10 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Personal site of Taylor Stib",
+  "main": "index.js",
+  "repository": "git@github.com:taylorstib/taylorstib.github.io.git",
+  "author": "Taylor Stib <tstib3@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
