@@ -1,10 +1,31 @@
 {
-  "name": "y",
+  "name": "taylorstib-github-io",
   "version": "1.0.0",
-  "description": "Personal site of Taylor Stib",
-  "main": "index.js",
+  "description": "Personal site of Taylor Stib — Next.js 14 + Prisma + Neon",
   "repository": "git@github.com:taylorstib/taylorstib.github.io.git",
   "author": "Taylor Stib <tstib3@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prisma": "^5.11.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  }
 }
